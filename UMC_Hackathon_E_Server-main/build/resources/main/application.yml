@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://hackerthon-db.cv2821t7oybx.ap-northeast-2.rds.amazonaws.com:3306/hackerthon?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: admin
+    password: hackerthon-e
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+#      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
